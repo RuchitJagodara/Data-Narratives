@@ -1,6 +1,6 @@
 # Data-Narratives
 
-This repo contains few data narratives including their reports and codes to generate the results, also!
+This repo contains few data narratives including their reports and codes to generate the results.
 
 # Overview
 Developed as part of the ES-114 course at the Indian Institute of Technology, Gandhinagar, this narrative exemplifies the practical integration of Probability, Statistics, and Data Visualization. Created during April '23, this project aligns with the ES-113 Data Centric Computing course, enriching our exploration of the Tennis Major Tournaments dataset.
