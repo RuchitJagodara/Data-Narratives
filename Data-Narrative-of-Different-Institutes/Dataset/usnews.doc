@@ -1,0 +1,71 @@
+This dataset contains information on over 1300
+American colleges and universities.  The data may be obtained in
+either of two formats.
+
+USNEWS.DATA contains the raw data in comma delimited fields with
+a single data line for each school. The order of variables is the
+same as given below for the fixed column version, although the
+spacing varies for each school.
+
+USNEWS3.DATA has the data arranged in fixed columns, with three
+data lines for each school and a maximum line length of 80
+characters.
+
+This dataset is taken from the 1995 U.S. News & World Report's
+Guide to America's Best Colleges.  This dataset is protected by
+copyright, is reproduced with permission of the copyright
+holder(s), and may not be downloaded or otherwise copied, except
+solely for the purpose of analysis in connection with the
+American Statistical Association's 1995 Data Analysis Exposition.
+The data are reporduced with the permission of the publisher.
+
+Most of the data are for the 1993-94 school year. You may wish to
+consult a copy of the U.S. News source for more detailed
+descriptions of the variables.
+
+
+KEY FOR USNEWS3.DATA
+Fixed column format with three data lines per school
+
+Line #1
+  1 -  5   FICE (Federal ID number)
+  7 - 51   College name
+ 53 - 54   State (postal code)
+
+Line #2
+  1 -  2   Public/private indicator (public=1, private=2)
+  3 -  6   Average Math SAT score
+  7 - 10   Average Verbal SAT score
+ 11 - 15   Average Combined SAT score
+ 16 - 18   Average ACT score
+ 19 - 22   First quartile - Math SAT
+ 23 - 26   Third quartile - Math SAT
+ 27 - 30   First quartile - Verbal SAT
+ 31 - 34   Third quartile - Verbal SAT
+ 35 - 37   First quartile - ACT
+ 38 - 40   Third quartile - ACT
+ 41 - 46   Number of applications received
+ 47 - 52   Number of applicants accepted
+ 53 - 57   Number of new students enrolled
+ 58 - 61   Pct. new students from top 10% of H.S. class
+ 62 - 65   Pct. new students from top 25% of H.S. class
+
+Line #3
+  1 -  6   Number of fulltime undergraduates
+  7 - 12   Number of parttime undergraduates
+ 13 - 18   In-state tuition
+ 19 - 24   Out-of-state tuition
+ 25 - 29   Room and board costs
+ 30 - 34   Room costs
+ 35 - 39   Board costs
+ 40 - 44   Additional fees
+ 45 - 49   Estimated book costs
+ 50 - 54   Estimated personal spending
+ 55 - 58   Pct. of faculty with Ph.D.'s
+ 59 - 62   Pct. of faculty with terminal degree
+ 63 - 67   Student/faculty ratio
+ 68 - 70   Pct.alumni who donate
+ 71 - 76   Instructional expenditure per student
+ 77 - 80   Graduation rate
+
+Missing values are denoted with *
