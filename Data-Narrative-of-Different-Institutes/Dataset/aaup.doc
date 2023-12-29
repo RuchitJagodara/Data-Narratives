@@ -1,0 +1,46 @@
+This dataset contains information on faculty salaries
+for 1161 American colleges and universities.  The data may be
+obtained in either of two formats.
+
+AAUP.DATA contains the raw data in comma delimited fields with a
+single data line for each school. The order of variables is the
+same as given below for the fixed column version, although the
+spacing varies for each school.
+
+AAUP2.DATA has the data arranged in fixed columns, with two data
+lines for each school and a maximum line length of 80 characters.
+
+This dataset is taken from the March-April 1994 issue of Academe.
+Thanks to Maryse Eymonerie, Consultant to AAUP, for assistance in
+supplying the data.  Faculty salary data are for the 1993-94
+school year. You may wish to consult a copy of the special issue
+of Academe for more detailed descriptions of the variables.
+
+Data Revised: Wed Jan 18 1995
+
+VARIABLE DESCRIPTIONS (AAUP2.DAT)
+Fixed column format with two data lines per school
+
+Line #1
+  1 -  5   FICE (Federal ID number)
+  7 - 37   College name
+ 38 - 39   State (postal code)
+ 40 - 43   Type  (I, IIA, or IIB)
+ 44 - 48   Average salary - full professors
+ 49 - 52   Average salary - associate professors
+ 53 - 56   Average salary - assistant professors
+ 57 - 60   Average salary - all ranks
+ 61 - 65   Average compensation - full professors
+ 66 - 69   Average compensation - associate professors
+ 70 - 73   Average compensation - assistant professors
+ 74 - 78   Average compensation - all ranks
+
+Line #2
+  1 -  4   Number of full professors
+  5 -  8   Number of associate professors
+  9 - 12   Number of assistant professors
+ 13 - 16   Number of instructors
+ 17 - 21   Number of faculty - all ranks
+
+Missing values are denoted with *
+All salary and compensation figures are yearly in $100's
